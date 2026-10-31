@@ -1,29 +1,27 @@
 # Arc-Clock (Iron Man / JARVIS Edition)
 
-Custom ESP32 WROOM Arc-Clock featuring an Iron Man themed HUD, live DHT11 telemetry, capacitive touch interactions, Cherry MX switches, an ST7789 display (76x284 long-strip), mini-games, and a hosted WiFi web dashboard.
+Arc Clock Is a 4 key Custom Iron man ARC reactor Themed Clock made by me (L0stsky)!!! Its my first project with a pcb.
 
 ---
 
-## ⚡ GPIO Pinout (Configurable Variables)
+## What is this??
+Arc Clock is a Custom alarm clock That is based on the Theme of Iron Man. It Uses a PCB, a 3D Printed case and Various Other sensors (battery if you want!)
+The clock has 4 Buttons for Various Funcs like setting alarms, changing time, playing games etc!
 
-| Component | Pin Variable | ESP32 GPIO | Description |
-| :--- | :--- | :--- | :--- |
-| **Buzzer** | `pin_buzz` | **4** | Active/Passive buzzer (repulsor SFX & alarms) |
-| **TTP223 Touch** | `pin_touch` | **19** | Capacitive touch sensor |
-| **DHT11** | `pin_dht` | **21** | Temperature & Humidity data |
-| **Button 1 (MX)** | `pin_b1` | **32** | Thrust UP (Game) / Hour + (Alarm) |
-| **Button 2 (MX)** | `pin_b2` | **33** | Dive DOWN (Game) / Min + (Alarm) |
-| **Button 3 (MX)** | `pin_b3` | **22** | Mode Cycle (HUD / Dash / Game / Alarm) |
-| **Button 4 (MX)** | `pin_b4` | **23** | Action / Alarm Dismiss / Game Restart |
-| **TFT SDA (MOSI)**| `pin_mosi` | **13** | SPI MOSI |
-| **TFT SCL (SCLK)**| `pin_sclk` | **14** | SPI SCLK |
-| **TFT CS** | `pin_cs` | **27** | SPI Chip Select |
-| **TFT DC** | `pin_dc` | **26** | Data / Command |
-| **TFT BL** | `pin_bl` | **25** | Backlight (Active LOW) |
+---
+## Materials Used
+Buzzer
+Esp32 Wroom
+2.25" dispay module
+DHT11 Sensor
+4* Mx cherry switches and keycaps
+Mini 360 Buck
+3D printed Case
 
 ---
 
-## 🚀 Operating Modes (Cycle with Button 3)
+## Operating Modes (Cycle with Button 3)
+Arc Clock has 3 Modes:
 
 1. **Mode 0: Iron Man Arc Clock HUD**
    - Animated Arc Reactor graphic with rotating spokes.
@@ -32,16 +30,16 @@ Custom ESP32 WROOM Arc-Clock featuring an Iron Man themed HUD, live DHT11 teleme
    - WiFi connection & alarm status.
    - Tap Touch Sensor for Repulsor blast sound.
 
-2. **Mode 1: Stark Telemetry Dashboard**
-   - Visual bar gauges for Temperature (°C) and Humidity (%).
-   - WiFi IP address and network status.
+2. **Mode 1: Telemetry Dashboard**
+   - Visual bar for Temperature and Humidity
+   - WiFi network status.
    - Touch sensor state, uptime, and available RAM.
 
 3. **Mode 2: "Arc Dodger" Mini-Game**
    - Fly the Iron Man armor dodging incoming missiles and drones.
    - **B1**: Thrust Up
    - **B2**: Dive Down
-   - **Touch Sensor**: Fire Repulsor Beam laser (destroys drones in path)
+   - **Touch Sensor**: Fire Repulsor Beam laser
    - **B4**: Reboot suit / restart game on crash
 
 4. **Mode 3: Alarm Protocol & SFX Test**
@@ -52,12 +50,25 @@ Custom ESP32 WROOM Arc-Clock featuring an Iron Man themed HUD, live DHT11 teleme
 
 ---
 
-## 🌐 WiFi & Web Dashboard
+## A web Control!!
+1. Has auto Connect to wifi (set the creds in the Code) and Auto Updates Time!!
+2. Automatically goes to sleep after inactivity (can be changed)
+3. Has a website to control it to make it ring or change the Background and more!
 
-1. Set your WiFi credentials at the top of [`Firmware/Code.ino`](file:///home/l0stsky/ExTraStuff/Competitions/Clock/Firmware/Code.ino):
-   ```cpp
-   const char* ssid = "YOUR_WIFI_NAME";
-   const char* pass = "YOUR_WIFI_PASSWORD";
-   ```
-2. When connected, the clock syncs accurate time automatically via NTP (`pool.ntp.org`).
-3. Open `http://<ESP32_IP>` in your browser or phone to access the JARVIS Web Dashboard with live sensor data and remote controls.
+---
+
+## AI Usage
+1. Used AI to help me with the PCB making as i didn't understand a single thing about them.
+2. Used a Lil AI help in the Code
+
+---
+
+## How to use
+1. Download the Repo
+2. Update the Code with you wifi Credentials
+3. Flash to your esp32!
+
+---
+
+## Creator
+Made by L0stsky ;D with KiCad
