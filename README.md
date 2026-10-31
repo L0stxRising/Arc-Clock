@@ -1,4 +1,4 @@
-# Arc-Clock (Iron Man / JARVIS Edition)
+# Arc-Clock
 
 Arc Clock Is a 4 key Custom Iron man ARC reactor Themed Clock made by me (L0stsky)!!! Its my first project with a pcb.
 
