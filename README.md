@@ -2,11 +2,18 @@
 
 Arc Clock Is a 4 key Custom Iron man ARC reactor Themed Clock made by me (L0stsky)!!! Its my first project with a pcb.
 
+![Arc Clock](imgs/case.png)
+
+
 ---
 
 ## What is this??
 Arc Clock is a Custom alarm clock That is based on the Theme of Iron Man. It Uses a PCB, a 3D Printed case and Various Other sensors (battery if you want!)
 The clock has 4 Buttons for Various Funcs like setting alarms, changing time, playing games etc!
+
+![Arc Clock](imgs/SCH.png)
+
+![Arc Clock](imgs/PCB.png)
 
 ---
 ## Materials Used
@@ -72,3 +79,4 @@ Arc Clock has 3 Modes:
 
 ## Creator
 Made by L0stsky ;D with KiCad
+
