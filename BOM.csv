@@ -1,5 +1,4 @@
 Item,Component,Description,Qty
-1,ESP32-WROOM-32,ESP32 30-Pin Development Board (Wi-Fi + BLE),1
 2,MX Keyboard Switches,Cherry MX Style Mechanical Switches,12
 3,DSA Keycaps,White Blank DSA Keycaps,12
 4,1N4148 Diodes,High-speed switching diodes (Through-Hole),12
@@ -10,14 +9,7 @@ Item,Component,Description,Qty
 9,Heatset Inserts,M3x5x4mm Brass Threaded Inserts,8
 10,M3 Screws,M3 x 8mm Hex/Button Head Screws,4
 11,M3 Screws,M3 x 16mm Hex/Button Head Screws,4
-12,DHT11 Sensor,Digital Temperature & Humidity Sensor,1
-13,TTP223 Sensor,Capacitive Touch Switch Sensor Module,1
-14,Mini360 Module,Mini360 DC-DC Step-Down Buck Converter,1
-15,10k Resistor,10k Ohm 1/4W Metal Film Resistor,1
-16,Terminal Block,2-Pin 5.00mm Pitch Screw Terminal Block,1
-17,3-Pin Terminal Block,3-Pin 5.00mm Pitch Terminal Block / Header,1
-18,Arc-Clock PCB,Custom 2-Layer Arc-Clock Circuit Board,1
-19,Main Case,3D Printed Main Enclosure Shell,1
-20,Case Bottom,3D Printed Bottom Enclosure Cover,1
-21,Display Holder,3D Printed 2.25in Screen & Bracket Holder,1
-22,Arc Logo,3D Printed Iron Man / Arc Accent Emblem,1
+12,10k Resistor,10k Ohm 1/4W Metal Film Resistor,1
+13,Terminal Block,2-Pin 5.00mm Pitch Screw Terminal Block,1
+14,Arc-Clock PCB,Custom 2-Layer Arc-Clock Circuit Board,1
+15,Main Case,3D Printed Main Enclosure Shell,1
